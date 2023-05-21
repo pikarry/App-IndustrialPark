@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgr"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        tools:context=".View.Fragment.IndustrialFragment.IndustrialFragment">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/edtSearchIndustrial"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:background="@drawable/boder_radius_input"
+                android:textSize="20dp"
+                android:padding="6dp"
+                android:ellipsize="end"
+                android:lines="1"
+                android:textColor="@color/blue"
+                android:drawableStart="@drawable/ic_baseline_search_24"
+                android:hint="Tên khu công nghiệp"/>
+            <Button
+                android:id="@+id/btnSearch"
+                android:layout_marginLeft="10dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Tìm kiếm"
+                android:ellipsize="end"
+                android:lines="1"
+                android:layout_gravity="center_vertical"
+                android:backgroundTint="@color/blue"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/revIndustrial"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <ProgressBar
+                android:id="@+id/progressIndustrial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:indeterminate="true" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</layout>

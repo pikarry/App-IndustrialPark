@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:background="@color/backgr"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".View.Fragment.HomeFragment.HomeFragment">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/home1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:alpha="0.6"
+                    android:background="@color/xam" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hiệu quả và thành công bền vững của nhà đầu tư"
+                        android:textAlignment="center"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Là thước đo cho mọi kế hoạch và hành động của iRent"
+                        android:textAlignment="center"
+                        android:textColor="@color/blue"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvTN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tầm nhìn"
+                    android:textAlignment="center"
+                    android:textColor="@color/blue"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="4dp"
+                    android:layout_below="@id/tvTN"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/blue" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/home2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="MÔ HÌNH DOANH NGHIỆP HOÀN HẢO"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Con người làm chủ khoa học, công nghệ, áp dụng các công cụ quản lý tiên tiến, giúp Doanh nghiệp kinh doanh và phát triển."
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <!--            home 3-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/home3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="MÔI TRƯỜNG LÀM VIỆC THÂN THIỆN"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Khuyến khích sự học hỏi phát triển năng lực, mọi người quan tâm đến đồng đội, hạnh phúc gia đình và lợi ích xã hội."
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <!--            home 4-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/home4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="HỆ THỐNG NHÀ XƯỞNG DỊCH VỤ"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Giúp Doanh nghiệp sớm triển khai hiệu quả và phát triển được lợi thế cạnh tranh."
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvSM"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sứ mệnh"
+                    android:textAlignment="center"
+                    android:textColor="@color/blue"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="4dp"
+                    android:layout_below="@id/tvSM"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/blue" />
+
+            </RelativeLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:alpha="0.8"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/home5" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:background="@color/blue"
+                    android:alpha="0.7"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:text="Đầu tư thỏa đáng cho con người và sản phẩm nhằm hình thành môi trường sản xuất vững chắc và hiệu quả, mang lại giá trị gia tăng cho khách hàng và các thành viên của tổ chức, góp phần phát triển cộng đồng Doanh nghiệp tại Việt Nam."
+                    android:textColor="@color/white" />
+
+            </FrameLayout>
+
+            <!--            home 6-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/home6" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="KHÁCH HÀNG LÀ TRUNG TÂM"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hiệu quả và sự thành công bền vững của khách hàng là thước đo mọi kế hoạch và hành động."
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+            <!--            home 7-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/home7" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="CAM KẾT"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thực hiện đầy đủ những gì chúng ta cam kết."
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+            <!--            home 8-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/home8" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="HỢP TÁC"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cùng thống nhất giải pháp, cùng phối hợp hành động, cùng chia sẻ thành quả."
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+
+            <!--            home 9-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/home9" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="HIỆU QUẢ"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Liên tục cải tiến để tạo ra kết quả tốt nhất với nguồn lực tối ưu nhất."
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+
+<!--            footer-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/home51" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:alpha="0.6"
+                        android:background="@color/blue" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Liên hệ chúng tôi"
+                            android:textColor="@color/white"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:drawableLeft="@drawable/icon_foot_email"
+                            android:drawablePadding="10dp"
+                            android:text="iren@gmail.com"
+                            android:textColor="@color/white"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:drawableLeft="@drawable/ic_baseline_phone_24"
+                            android:drawablePadding="10dp"
+                            android:text="+84 272 3900 191"
+                            android:textColor="@color/white"
+                            android:textSize="15dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginRight="10dp"
+                                android:src="@drawable/ic_baseline_location_on_24"
+                                android:tint="@color/white"
+                                tools:ignore="UseAppTint" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@drawable/icon_foot_email"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:drawablePadding="10dp"
+                                    android:text="CÔNG TY CỔ PHẦN IRENT VIET NAM"
+                                    android:textColor="@color/white"
+                                    android:textSize="15dp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:drawablePadding="10dp"
+                                    android:text="Lô K, KCN Tân Kim, Huyện Cần Giuộc, Tỉnh Long An, Việt Nam"
+                                    android:textColor="@color/white"
+                                    android:textSize="15dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+</layout>

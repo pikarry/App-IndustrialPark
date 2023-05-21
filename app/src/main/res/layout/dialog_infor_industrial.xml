@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:background="@drawable/border_radius"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvTenKCN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Teen KCN"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgDong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_baseline_close_24" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vị trí: "
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvViTri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="xã Hòa Phú, huyện Long Hồ, tỉnh Vĩnh Long"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tổng diện tích: "
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTongDienTich"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6ha"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tổng số nhà xưởng: "
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTongSoNX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="30 nhà xưởng"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mô tả: "
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvMoTa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KCN Hòa Phú có diện tích 182ha, hướng Nam cách trung tâm thành phố Buôn Ma Thuột tầm 15km, là KCN đa lĩnh vực, các dự án đa dạng, trọng tâm là các ngành công nghiệp chế biến như chế biến nông, lâm sản, vật liệu xây dựng,…"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp">
+        <ImageView
+            android:id="@+id/imgIndustrialImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/home5"/>
+    </androidx.cardview.widget.CardView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvBanDo"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bản đồ"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/ic_baseline_location_on_24"
+            android:textColor="@color/blue"
+            android:drawableTint="@color/blue"
+            android:textSize="15dp"/>
+        <Button
+            android:id="@+id/btnDSXuong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:ellipsize="middle"
+            android:lines="1"
+            android:layout_alignParentRight="true"
+            android:backgroundTint="@color/blue"
+            android:text="Danh Sách Xưởng"/>
+    </RelativeLayout>
+</LinearLayout>
